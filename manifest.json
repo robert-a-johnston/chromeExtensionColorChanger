@@ -21,6 +21,9 @@
     "48": "./images/favicon32.png",
     "128": "./images/favicon32.png"
   },
-  "permissions": ["storage"]
+  "permissions": ["storage", "activeTab", "scripting"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
 
 }
